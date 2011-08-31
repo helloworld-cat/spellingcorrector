@@ -17,3 +17,6 @@ Description goes here.
 Copyright (c) 2011 Sam. See LICENSE.txt for
 further details.
 
+== Use
+correct = SpellingCorrector::Engine.new('holmes').correct("wheere")
+puts "Did you mean \"#{correct}\" ?"
